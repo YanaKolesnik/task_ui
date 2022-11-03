@@ -46,21 +46,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   TextStyle(fontSize: 22, fontFamily: 'SuisseIntl'),
                 ),
               ),
-              Container(
-                height: 64,
-                padding: const EdgeInsets.symmetric(vertical: 12),
-                child: const Text(
-                  'Войдите в аккаунт и начните поддерживать  и создавать проекты.',
-                  textScaleFactor: 1,
-                  style: TextStyle(
-                      fontSize: 14, fontFamily: 'SuisseIntl'
+              Flexible(
+                child: Container(
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  child: const Text(
+                    'Войдите в аккаунт и начните поддерживать  и создавать проекты.',
+                    textScaleFactor: 1,
+                    style: TextStyle(
+                        fontSize: 14, fontFamily: 'SuisseIntl'
+                    ),
                   ),
                 ),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 12),
                 child: MaterialButton(
-                  height: 48.0,
+                  height: 48,
                   color: const Color.fromRGBO(255, 125, 90, 1),
                   elevation: 0,
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
@@ -73,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.white,
                         fontFamily: 'SuisseIntl',
                         fontWeight: FontWeight.w500,
-                        fontSize: 16.0,
+                        fontSize: 16,
                         height: 1.25,
                       ),
                     ),
@@ -91,10 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         fontFamily: 'SuisseIntl',
                         color: Color.fromRGBO(94, 94, 94, 1),
                         fontWeight: FontWeight.w300,
-                        fontSize: 14.0,
+                        fontSize: 14,
                       ),
                     ),
-                    SizedBox(width: 6.0),
+                    SizedBox(width: 6),
                     InkWell(
                       child: Text(
                         'Зарегистрируйтесь',
@@ -104,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           fontFamily: 'SuisseIntl',
                           fontWeight: FontWeight.w300,
                           decoration: TextDecoration.underline,
-                          fontSize: 14.0,
+                          fontSize: 14,
                           letterSpacing: 0.25
                         ),
                       ),

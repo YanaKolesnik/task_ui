@@ -32,7 +32,7 @@ class SingInButton extends StatelessWidget {
                 color: Color.fromRGBO(44, 44, 44, 1),
                 fontWeight: FontWeight.w500,
                 fontSize: 14,
-                fontFamily: 'SuisseIntl',
+                fontFamily: 'SuisseIntl-Medium',
                 height: 1.33,
               ),
             ),
