@@ -79,7 +79,7 @@ Future<void> showSingInBannerWidget(BuildContext context, String title) {
                             children: [
                               Container(
                                 height: 56,
-                                padding: const EdgeInsets.only(left: 14, right: 16),
+                                padding: const EdgeInsets.only(left: 14, right: 10),
                                 child: Row(
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,

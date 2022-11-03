@@ -74,7 +74,7 @@ Future<void> showPhoneNumberView(BuildContext context) {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Padding(
-                        padding: EdgeInsets.only(top: 24, left: 24, right: 24, bottom: 8),
+                        padding: EdgeInsets.only(top: 24, left: 24, right: 24, bottom: 24),
                         child: Text(
                           'Введите код, отправленный на  +7 960 114-51-31:',
                           textScaleFactor: 1,
@@ -87,7 +87,7 @@ Future<void> showPhoneNumberView(BuildContext context) {
                         ),
                       ),
                       Container(
-                        padding: const EdgeInsets.only(right: 24, left: 24, top: 24),
+                        padding: const EdgeInsets.only(right: 24, left: 24),
                         child: PinCodeTextField(
                           appContext: context,
                           length: 4,
@@ -123,7 +123,7 @@ Future<void> showPhoneNumberView(BuildContext context) {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.fromLTRB(24, 28, 0, 16),
+                        padding: const EdgeInsets.fromLTRB(24, 12, 0, 16),
                         child: Row(
                           children: [
                             const Text(
